@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>ROCK PAPER SCISSOR GAME - DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  </head>
+  <body>
+    <h1>ROCK - PAPER - SCISSORS</h1>
+    <div class="scoreboard">
+      <div class="win-counter">
+        <span class="label">You:</span>
+        <span id="win-count">0</span>
+      </div>
+      <div class="loss-counter">
+        <span class="label">COMPUTER:</span>
+        <span id="loss-count">0</span>
+      </div>
+    </div>
+    
+    <div class="container">
+        <p style="font-size: 30px; font-weight: 600;">MAKE YOUR CHOICE:</p>
+        <div id="options">
+        <a id="rock"><i class="fa-solid fa-hand-back-fist"></i></a>
+        <a id="paper"><i class="fa-solid fa-hand"></i></a>
+        <a id="scissors"><i class="fa-solid fa-hand-scissors"></i></a>
+        </div>
+        <div id="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>
